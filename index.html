@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-lang-key="pageTitle">Portfolio von Julian Brückner</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <style>
+        #hero {
+            position: relative;
+            background-image: url('https://images.unsplash.com/photo-1550041822-243c58b31405?q=80&w=2070&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+            color: #ffffff;
+            z-index: 0;
+        }
+
+        #hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(25, 30, 45, 0.65);
+            z-index: 1;
+        }
+
+        #hero > * {
+            position: relative;
+            z-index: 2;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo" data-lang-key="navLogo">Julian Brückner</div>
+            <ul>
+                <li><a href="#about" data-lang-key="navAbout">Über Mich</a></li>
+                <li><a href="#skills" data-lang-key="navSkills">Skills</a></li>
+                <li><a href="#portfolio" data-lang-key="navPortfolio">Portfolio</a></li>
+                <li><a href="#contact" data-lang-key="navContact">Kontakt</a></li>
+            </ul>
+            <div class="lang-switcher">
+                <button id="lang-de" class="active">DE</button>
+                <button id="lang-en">EN</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h1 data-lang-key="heroTitle">Game & Software Developer</h1>
+            <p class="subtitle" data-lang-key="heroSubtitle">Leidenschaft für Code, Design und interaktive Erlebnisse.</p>
+        </section>
+
+        <section id="about" class="container">
+            <h2 data-lang-key="aboutTitle">Über Mich</h2>
+            <div class="about-content">
+                <img src="images/profilbild.jpg" alt="Ein Bild von Julian Brückner" class="profile-pic">
+                <div>
+                    <p data-lang-key="aboutText1">
+                        Willkommen auf meiner Seite! Ich bin ein passionierter Entwickler mit über 10 Jahren Hobby-Erfahrung in diversen Programmiersprachen und Technologien. Meine professionelle Laufbahn begann bei Bohemia Interactive, wo ich 1,5 Jahre als Technical Designer an spannenden Projekten mitwirken durfte.
+                    </p>
+                    <p data-lang-key="aboutText2">
+                        Meine Stärke liegt in der Verbindung von technischem Verständnis und kreativem Design, um einzigartige und funktionale Lösungen zu schaffen. Ich bin stets auf der Suche nach neuen Herausforderungen, um meine Fähigkeiten weiterzuentwickeln und innovative Software zu gestalten.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="container">
+            <h2 data-lang-key="skillsTitle">Meine Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 data-lang-key="skillsCat1">Programmiersprachen</h3>
+                    <ul>
+                        <li>C#</li>
+                        <li>C++</li>
+                        <li>JavaScript</li>
+                        <li>Python</li>
+                        <li>Lua</li>
+                        <li>SQF</li>
+                        <li>HTML & CSS</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3 data-lang-key="skillsCat2">Engines & Frameworks</h3>
+                    <ul>
+                        <li>Unity Engine</li>
+                        <li>Unreal Engine</li>
+                        <li>Node.js</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3 data-lang-key="skillsCat3">Tools & Software</h3>
+                    <ul>
+                        <li>Git & GitHub</li>
+                        <li>JIRA</li>
+                        <li>Confluence</li>
+                        <li>Blender</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="container">
+            <h2 data-lang-key="portfolioTitle">Portfolio</h2>
+            <div class="portfolio-grid">
+                
+                <div class="project-card">
+                    <h3 data-lang-key="project1Title">Mein Itch.io Spiel</h3>
+                    <div class="project-media">
+                        <iframe frameborder="0" src="https://itch.io/embed-upload/1234567?color=333333" allowfullscreen="" width="100%" height="185"><a href="https://asmondia.itch.io/island-of-bats">Play Mein Spiel on itch.io</a></iframe>
+                    </div>
+                    <p data-lang-key="project1Desc">Eine kurze Beschreibung des Spiels. Was war das Ziel? Was war Ihre Rolle? Welche Herausforderungen gab es?</p>
+                    <div class="project-tags">
+                        <span>Unity</span>
+                        <span>C#</span>
+                        <span>WebGL</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://asmondia.itch.io/island-of-bats" target="_blank" data-lang-key="projectLinkPlay">Spielen</a>
+                        <a href="https://github.com/NandanJoshi2007/Mini-Jam-114-Anime-" target="_blank">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3 data-lang-key="project2Title">Mein Software Tool</h3>
+                    <div class="project-media">
+                        <img src="https://placehold.co/600x400/333333/ffffff?text=Projekt-Vorschau" alt="Vorschau meines Software Tools">
+                    </div>
+                    <p data-lang-key="project2Desc">Eine kurze Beschreibung des Tools. Welches Problem löst es? Welche Technologien wurden verwendet?</p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Tkinter</span>
+                        <span>API</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/ihr-name/mein-tool" target="_blank">GitHub</a>
+                    </div>
+                </div>
+
+                </div>
+        </section>
+
+        <section id="contact" class="container">
+            <h2 data-lang-key="contactTitle">Kontakt</h2>
+            <p data-lang-key="contactText">Ich bin offen für neue Jobangebote und spannende Projekte. Kontaktieren Sie mich gerne!</p>
+            <a href="mailto:julianbrueckner@web.de" class="contact-button">E-Mail Senden</a>
+            <div class="social-links">
+                <a href="https://github.com/AtrixZockt" target="_blank">GitHub</a>
+                <a href="https://www.linkedin.com/in/julian-brückner-6226382b1" target="_blank">LinkedIn</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p data-lang-key="footerText">&copy; 2025 Julian Brückner. Alle Rechte vorbehalten.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
