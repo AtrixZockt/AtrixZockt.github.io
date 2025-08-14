@@ -260,6 +260,15 @@ nav ul li a {
     font-size: 1.1rem;
 }
 
+.contact-options {
+    margin-bottom: 40px;
+}
+
+.contact-options p {
+    margin-top: 20px;
+    color: var(--secondary-text-color);
+}
+
 /* Footer */
 footer {
     text-align: center;

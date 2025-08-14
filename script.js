@@ -8,11 +8,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const translations = {
         pageTitle: {
             de: "Portfolio von Julian Brückner",
-            en: "Portfolio of"
+            en: "Portfolio of Julian Brückner"
         },
         navLogo: {
             de: "Julian Brückner",
-            en: ""
+            en: "Julian Brückner"
         },
         navAbout: {
             de: "Über Mich",
@@ -71,8 +71,8 @@ document.addEventListener('DOMContentLoaded', () => {
             en: "Portfolio"
         },
         project1Title: {
-            de: "Mein Itch.io Spiel",
-            en: "My Itch.io Game"
+            de: "Itch.io: Island of Bats",
+            en: "Itch.io: Island of Bats"
         },
         project1Desc: {
             de: "Eine kurze Beschreibung des Spiels. Was war das Ziel? Was war Ihre Rolle? Welche Herausforderungen gab es?",
@@ -83,8 +83,8 @@ document.addEventListener('DOMContentLoaded', () => {
             en: "Play Game"
         },
         project2Title: {
-            de: "Mein Software Tool",
-            en: "My Software Tool"
+            de: "KAT - Advanced Medical",
+            en: "KAT - Advanced Medical"
         },
         project2Desc: {
             de: "Eine kurze Beschreibung des Tools. Welches Problem löst es? Welche Technologien wurden verwendet?",
