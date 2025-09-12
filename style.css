@@ -153,31 +153,6 @@ nav ul li a {
     align-self: center;
 }
 
-.about-button-wrapper {
-    text-align: center;
-    margin-top: 30px;
-}
-
-.resume-button {
-    display: inline-block;
-    background-color: var(--accent-color);
-    color: #ffffff;
-    padding: 1rem 2rem;
-    border-radius: 5px;
-    font-size: 1.1rem;
-    font-weight: bold;
-    margin-bottom: 2rem;
-    align-items: center;
-    align-self: center;
-    align-content: center;
-}
-
-.resume-button:hover {
-    background-color: #0088cc;
-    color: #ffffff;
-}
-
-
 /* Skills Sektion */
 .skills-grid {
     display: grid;
@@ -325,4 +300,29 @@ footer {
         flex-direction: column;
         text-align: center;
     }
+}
+
+.impressum-container {
+    padding-top: 120px; /* Extra space because of the fixed header */
+    padding-bottom: 80px;
+}
+
+.impressum-container h2 {
+    text-align: left;
+}
+
+.impressum-container h2::after {
+    left: 0;
+    transform: translateX(0);
+}
+
+.impressum-container h3 {
+    margin-top: 40px;
+    font-size: 1.5rem;
+    color: var(--accent-color);
+}
+
+.impressum-container p {
+    color: var(--secondary-text-color);
+    max-width: 800px; /* Makes long text easier to read */
 }

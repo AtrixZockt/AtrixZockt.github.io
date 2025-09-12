@@ -50,10 +50,6 @@ document.addEventListener('DOMContentLoaded', () => {
             de: "Meine Stärke liegt in der Verbindung von technischem Verständnis und kreativem Design, um einzigartige und funktionale Lösungen zu schaffen. Ich bin stets auf der Suche nach neuen Herausforderungen, um meine Fähigkeiten weiterzuentwickeln und innovative Software zu gestalten.",
             en: "My strength lies in combining technical understanding with creative design to create unique and functional solutions. I am always looking for new challenges to further develop my skills and create innovative software."
         },
-        resumeButton: {
-            de: "Lebenslauf herunterladen",
-            en: "Download Resume"
-        },
         skillsTitle: {
             de: "Meine Skills",
             en: "My Skills"
