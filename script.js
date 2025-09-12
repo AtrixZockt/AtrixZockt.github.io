@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
             en: "Julian Brückner"
         },
         navAbout: {
-            de: "Über Mich",
+            de: "Über mich",
             en: "About Me"
         },
         navSkills: {
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
             en: "Passion for code, design, and games."
         },
         aboutTitle: {
-            de: "Über Mich",
+            de: "Über mich",
             en: "About Me"
         },
         aboutText1: {
@@ -102,10 +102,6 @@ document.addEventListener('DOMContentLoaded', () => {
             de: "E-Mail Senden",
             en: "Send Email"
         },
-        footerText: {
-            de: `&copy; ${new Date().getFullYear()} Julian Brückner. Alle Rechte vorbehalten.`,
-            en: `&copy; ${new Date().getFullYear()}. All rights reserved.`
-        }
     };
 
     const setLanguage = (lang) => {
