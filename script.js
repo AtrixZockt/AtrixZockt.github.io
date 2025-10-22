@@ -70,25 +70,33 @@ document.addEventListener('DOMContentLoaded', () => {
             de: "Portfolio",
             en: "Portfolio"
         },
-        project1Title: {
+        projectIslandOfBatsTitle: {
             de: "Itch.io: Island of Bats",
             en: "Itch.io: Island of Bats"
         },
-        project1Desc: {
-            de: "Eine kurze Beschreibung des Spiels. Was war das Ziel? Was war Ihre Rolle? Welche Herausforderungen gab es?",
-            en: "A brief description of the game. What was the goal? What was your role? What challenges did you face?"
+        projectIslandOfBatsDesc: {
+            de: "Island of Bats ist ein Adventure-Puzzle-Platfromer welches im Ramen des Mini Jam 114 in nur 3 Tagen erstellt wurde. Ein Team von 3 Entwicklern war an diesem Projekt beteiligt.",
+            en: "Island of Bats is a adventure puzzle platformer that was created in just three days as part of Mini Jam 114. A team of three developers worked on this project."
         },
         projectLinkPlay: {
             de: "Spielen",
             en: "Play Game"
         },
-        project2Title: {
+        projectKATTitle: {
             de: "KAT - Advanced Medical",
             en: "KAT - Advanced Medical"
         },
-        project2Desc: {
-            de: "Eine kurze Beschreibung des Tools. Welches Problem löst es? Welche Technologien wurden verwendet?",
-            en: "A brief description of the tool. What problem does it solve? What technologies were used?"
+        projectKATDesc: {
+            de: "KAT - Advanced Medical ist eine sehr detailierte Medizinische Modifikation für das Spiel Arma 3. Als part eines 9 Köpfigen Teams, bin ich mit dafür verantwortlich neue Features zu entwerfen und einzubauen.",
+            en: "KAT - Advanced Medical is a highly detailed medical modification for the game Arma 3. As part of a nine-person team, I am responsible for designing and implementing new features."
+        },
+        projectDICETitle: {
+            de: "Tavern Dice",
+            en: "Tavern Dice"
+        },
+        projectDICEDesc: {
+            de: "Tavern Dice ist mein aktuellstes Projekt, an welchem ich alleine arbeite und welches sich zum jetzigen Zeitpunkt noch in der Konzept phase befindet. Es handelt sich um ein kleines gelegenheits Würfelspiel, welches 10.000 nachempfunden ist. Bis ende 2026 soll das Spiel auf Itch.io kostenlos spielbar sein und einen 2 Spieler Multiplayer so wie Singleplayer gegen Bots beinhalten.",
+            en: "Tavern Dice is my latest project, which I am working on alone and which is currently still in the concept phase. It is a small casual dice game modeled after 10,000. By the end of 2026, the game should be playable for free on Itch.io and include a 2-player multiplayer mode as well as single-player mode against bots."
         },
         contactTitle: {
             de: "Kontakt",
