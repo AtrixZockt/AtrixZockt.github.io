@@ -47,8 +47,8 @@ document.addEventListener('DOMContentLoaded', () => {
             en: "Welcome to my page! I am a passionate developer with over 10 years of hobby experience in various programming languages and technologies. My professional career began at Bohemia Interactive, where I worked as a Technical Designer on exciting projects for 1.5 years."
         },
         aboutText2: {
-            de: "Meine Stärke liegt in der Verbindung von technischem Verständnis und kreativem Design, um einzigartige und funktionale Lösungen zu schaffen. Ich bin stets auf der Suche nach neuen Herausforderungen, um meine Fähigkeiten weiterzuentwickeln und innovative Software zu gestalten.",
-            en: "My strength lies in combining technical understanding with creative design to create unique and functional solutions. I am always looking for new challenges to further develop my skills and create innovative software."
+            de: "Meine Stärke liegt in der Verbindung von technischem Verständnis und kreativem Design, um einzigartige und funktionale Lösungen zu schaffen. Ich bin stets auf der Suche nach neuen Herausforderungen, um meine Fähigkeiten weiterzuentwickeln und innovative Software zu gestalten. Derzeit arbeite ich an meinem eigenen Spiel namens „Tavern Dice“, das mit Unity entwickelt wird und 2026 erscheinen soll. Außerdem arbeite ich als Teil eines kleinen Teams an einem neuen, von Fans entwickelten dynamischen Kampagnensystem für das Spiel „Digital Combat Simulator“.",
+            en: "My strength lies in combining technical understanding with creative design to create unique and functional solutions. I am always looking for new challenges to further develop my skills and create innovative software. Currently I'm working on my own game called Tavern Dice which is being developed using Unity and is planed to release in 2026. Also as part of a small Team, I'm working on a new fan made Dynamic Campaign system for the game Digital Combat Simulator."
         },
         skillsTitle: {
             de: "Meine Skills",
