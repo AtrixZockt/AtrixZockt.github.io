@@ -75,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
             en: "Itch.io: Island of Bats"
         },
         projectIslandOfBatsDesc: {
-            de: "Island of Bats ist ein Adventure-Puzzle-Platfromer welches im Ramen des Mini Jam 114 in nur 3 Tagen erstellt wurde. Ein Team von 3 Entwicklern war an diesem Projekt beteiligt.",
+            de: "Island of Bats ist ein Adventure-Puzzle-Platformer welches im Ramen des Mini Jam 114 in nur 3 Tagen erstellt wurde. Ein Team von 3 Entwicklern war an diesem Projekt beteiligt.",
             en: "Island of Bats is a adventure puzzle platformer that was created in just three days as part of Mini Jam 114. A team of three developers worked on this project."
         },
         projectLinkPlay: {
@@ -87,7 +87,7 @@ document.addEventListener('DOMContentLoaded', () => {
             en: "KAT - Advanced Medical"
         },
         projectKATDesc: {
-            de: "KAT - Advanced Medical ist eine sehr detailierte Medizinische Modifikation für das Spiel Arma 3. Als part eines 9 Köpfigen Teams, bin ich mit dafür verantwortlich neue Features zu entwerfen und einzubauen.",
+            de: "KAT - Advanced Medical ist eine sehr detailierte Medizinische Modifikation für das Spiel Arma 3. Als Part eines 9 Köpfigen Teams, bin ich mit dafür verantwortlich neue Features zu entwerfen und einzubauen.",
             en: "KAT - Advanced Medical is a highly detailed medical modification for the game Arma 3. As part of a nine-person team, I am responsible for designing and implementing new features."
         },
         projectDICETitle: {
@@ -95,8 +95,16 @@ document.addEventListener('DOMContentLoaded', () => {
             en: "Tavern Dice"
         },
         projectDICEDesc: {
-            de: "Tavern Dice ist mein aktuellstes Projekt, an welchem ich alleine arbeite und welches sich zum jetzigen Zeitpunkt noch in der Konzept phase befindet. Es handelt sich um ein kleines gelegenheits Würfelspiel, welches 10.000 nachempfunden ist. Bis ende 2026 soll das Spiel auf Itch.io kostenlos spielbar sein und einen 2 Spieler Multiplayer so wie Singleplayer gegen Bots beinhalten.",
-            en: "Tavern Dice is my latest project, which I am working on alone and which is currently still in the concept phase. It is a small casual dice game modeled after 10,000. By the end of 2026, the game should be playable for free on Itch.io and include a 2-player multiplayer mode as well as single-player mode against bots."
+            de: "Tavern Dice ist mein aktuellstes Projekt, an welchem ich alleine arbeite und welches sich zum jetzigen Zeitpunkt noch in der Konzeptphase befindet. Es handelt sich um ein kleines Gelegenheits-Würfelspiel, welches dem Spiel 10.000 nachempfunden ist. Bis Ende 2026 soll das Spiel auf Itch.io kostenlos spielbar sein und einen 2-Spieler-Multiplayer sowie Singleplayer gegen Bots beinhalten.",
+            en: "Tavern Dice is my latest project, which I am working on alone and which is currently still in the concept phase. It is a small casual dice game modeled after the game 10,000. By the end of 2026, the game should be playable for free on Itch.io and include a 2-player multiplayer mode as well as single-player mode against bots."
+        },
+        projectARMATitle: {
+            de: "Arma Reforger",
+            en: "Arma Reforger"
+        },
+        projectARMADesc: {
+            de: "Als Technical Designer bei Bohemia Interactive AG wirkte ich an dem AA-Spiel Arma Reforger (Militärsimulation) zwischen 04/2023 - 09/2024 mit. Ich war insbesondere zuständig für die Entwicklung/Umsetzung des UI-Designs. Meine Hauptaufgabe bestand darin neue UI elemente und system für das Spieler HUD zu erstellen",
+            en: "As a technical designer at Bohemia Interactive, I worked on the AA game Arma Reforger (military simulation) between April 2023 and September 2024. I was primarily responsible for developing and implementing the UI design. My main task was to create new UI elements and systems for the player HUD."
         },
         contactTitle: {
             de: "Kontakt",
